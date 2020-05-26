@@ -1,3 +1,4 @@
 HTML and CSS
 Java Script
 Bootstrap
+jQuery
