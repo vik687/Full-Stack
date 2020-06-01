@@ -1,0 +1,16 @@
+ul{
+    list-style-type:none;
+    border: 2px solid green;
+    background-color: lightslategray;
+}
+a{
+    color: blue;
+    margin: 10px;
+    font-size: 20px;
+    border: 2px solid chocolate;
+}
+a:hover{
+    color: orangered;
+    background-color: lightcyan;
+    font-size: xx-large;
+}

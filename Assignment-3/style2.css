@@ -1,0 +1,29 @@
+.main{
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    width: 50%
+}
+.a1{
+    border:2px solid red;
+    float: left;
+}
+.a3{
+    border:2px solid red;
+    float: right;
+
+}
+.a2{
+    padding-top: 20px;
+    display: inline-block;
+}
+nav{
+    border: 2px solid black;
+    width: 50%;
+    font-size: larger;
+}
+a:hover{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
