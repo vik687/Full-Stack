@@ -13,9 +13,9 @@ function myfun()
     var p=/^[2][0][2][1]$/;
     if(e.test(email)&&m.test(mobile)&&j.test(join)&&p.test(pass)&&r.test(roll))
     {
-        window.alert("valid");
+        window.alert("Registration Successful");
     }
     else{
-        window.alert("invalid");
+        window.alert("Registration Unsuccessful");
     }
 }
