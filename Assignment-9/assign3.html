@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery Animation</title>
+        <link rel="StyleSheet" href="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <script src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <link rel="StyleSheet" href="jquery-ui-1.12.1/jquery-ui-1.12.1/jquery-ui.min.css"/>
+        <script type="text/javascript" src="jquery-ui-1.12.1/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#btnclick").click(function(){
+                    $("#div1").toggle(2000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p><input type="button" value="Run" id="btnclick"></p>
+        <div id="div1" style="width: 100px; height: 100px; background-color: lightcoral; "></div>
+    </body>
+</html>
