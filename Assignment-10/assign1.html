@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <link rel="stylesheet" href="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#btnclick").click(function(){
+                    var v1=$("#txtuser").val();
+                    var v2=$("#txtpass").val();
+                    var reg=/^[a-z 0-9 @#$^&()]{6,12}$/;
+                    if(reg.test(v1) && reg.test(v2))
+                    {
+                        window.alert("Validated");
+                  }
+                  else
+                    {
+                        $('input[type="text"]').css("border","2px solid red");
+                        window.alert("enter correct username and password");
+                    }
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="txtuser"/>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="txtpass"/>
+                </div>
+                <button type="button" id="btnclick">submit</button>
+            </form>
+            
+        </div>
+    </body>
+</html>
